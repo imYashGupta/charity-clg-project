@@ -90,10 +90,10 @@
                                     </li>
                                     <li>
                                         <div class="icon-box">
-                                            <span class="icon-water-1"></span>
+                                            <span class="icon-graduated"></span>
                                         </div>
                                         <div class="text">
-                                            <p>Water</p>
+                                            <p>Education</p>
                                         </div>
                                     </li>
                                     <li>

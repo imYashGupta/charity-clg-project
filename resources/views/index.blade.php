@@ -42,14 +42,14 @@
                         <div class="row">
                             <div class="col-xl-12">
                                 <p>Helping Them Today</p>
-                                <h2>Help the Poor <br> in Need</h2>
+                                <h2>Believe in helping<br>others</h2>
                                 <a href="about.html" class="thm-btn">Learn More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
+           {{--  <div class="swiper-slide">
                 <div class="image-layer"
                     style="background-image: url(assets/images/main-slider/slider-1-3.jpg);"></div>
                 <div class="container">
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <div class="swiper-pagination" id="main-slider-pagination"></div>
         <div class="main-slider-nav">
@@ -93,8 +93,10 @@
                                 <h4>Become <br> Volunteer</h4>
                             </div>
                         </div>
-                        <p class="feature-one__icons-single-text">There are many of lorem Ipsum, but the majori
-                            have suffered alteration in some form.</p>
+                        <p class="feature-one__icons-single-text">
+                            Volunteering your time, money or energy to help others doesn't just make the world better it also makes you better.
+                             {{-- The very act of giving back to the community boosts your happiness, health, and sense of well-being!" --}}
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4">
@@ -111,8 +113,9 @@
                                 <h4>Quick <br> Fundraise</h4>
                             </div>
                         </div>
-                        <p class="feature-one__icons-single-text">There are many of lorem Ipsum, but the majori
-                            have suffered alteration in some form.</p>
+                        <p class="feature-one__icons-single-text">
+                            The efforts of one person can't move mountains. It's the strength of us all working together that makes a change.
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4">
@@ -129,8 +132,11 @@
                                 <h4>Start <br> Donating</h4>
                             </div>
                         </div>
-                        <p class="feature-one__icons-single-text">There are many of lorem Ipsum, but the majori
-                            have suffered alteration in some form.</p>
+                        <p class="feature-one__icons-single-text">
+                            A little help with a little smile gives meaning to human life.
+                            Help those less fortunate than you, for it is real human existence.
+
+                        </p>
                     </div>
                 </div>
             </div>
@@ -161,13 +167,11 @@
                         <h4>Helping Today</h4>
                         <h2>Our Goal is to Help Poor People</h2>
                     </div>
-                    <p class="welcome-one__text">Lorem ipsum dolor sit amet, consectetur notted adipisicing elit
-                        sed do eiusmod tempor incididunt ut labore et simply free text dolore magna aliqua lonm
-                        andhn.</p>
+                    <p class="welcome-one__text">Living for others is a rule of nature. We are all born to help each other. No matter how difficult it is. Life is good when you are happy; but much better when others are happy because of you.</p>
                     <ul class="welcome-one__list list-unstyled">
-                        <li><span class="icon-confirmation"></span>Nsectetur cing do not elit.</li>
-                        <li><span class="icon-confirmation"></span>Suspe ndisse suscipit sagittis in leo.</li>
-                        <li><span class="icon-confirmation"></span>Entum estibulum dignissim lipsm posuere.</li>
+                        <li><span class="icon-confirmation"></span>Do it yourself,Person to person</li>
+                        <li><span class="icon-confirmation"></span>Let's help poor people.</li>
+                        <li><span class="icon-confirmation"></span>Believe in helping others.</li>
                     </ul>
                     <div class="welcome-one__campaigns">
                         <div class="iocn">
@@ -175,7 +179,7 @@
                         </div>
                         <div class="text">
                             <h2 class="counter">86,700</h2>
-                            <p>Successfull Campaigns</p>
+                            <p>Fund Raised</p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +209,7 @@
                         </div>
                         <div class="popular-causes__content">
                             <div class="popular-causes__title">
-                                <h3><a href="campaign-details.html">Raise Fund for Clean & Healthy Water</a>
+                                <h3><a href="campaign-details.html">Helping people living on the sidewalk</a>
                                 </h3>
                                 <p>Aliq is notm hendr erit a augue insu image pellen tes.</p>
                             </div>
@@ -232,7 +236,7 @@
                         </div>
                         <div class="popular-causes__content">
                             <div class="popular-causes__title">
-                                <h3><a href="campaign-details.html">Education for Poor Children</a>
+                                <h3><a href="campaign-details.html">Promoting skills of under privileged children.</a>
                                 </h3>
                                 <p>Aliq is notm hendr erit a augue insu image pellen tes.</p>
                             </div>
@@ -259,7 +263,7 @@
                         </div>
                         <div class="popular-causes__content">
                             <div class="popular-causes__title">
-                                <h3><a href="campaign-details.html">Promoting The Rights of Children</a>
+                                <h3><a href="campaign-details.html">Providing essential medication to poor.</a>
                                 </h3>
                                 <p>Aliq is notm hendr erit a augue insu image pellen tes.</p>
                             </div>
@@ -277,7 +281,7 @@
                         </div>
                     </div>
                     <!--Popular Causes Single-->
-                    <div class="popular-causes__sinlge">
+                   {{--  <div class="popular-causes__sinlge">
                         <div class="popular-causes__img">
                             <img src="assets/images/resources/popular-causes-img-4.jpg" alt="">
                             <div class="popular-causes__category">
@@ -302,7 +306,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -596,7 +600,7 @@
 <!--Join One End-->
 
 <!--Newsletter One Start-->
-<section class="newsletter-one">
+<section class="newsletter-one" style="margin-bottom: 4rem">
     <div class="container">
         <div class="newsletter-one__inner">
             <div class="row">
@@ -628,108 +632,6 @@
     </div>
 </section>
 <!--Newsletter One End-->
-
-<!--News One Start-->
-<section class="news-one">
-    <div class="news-one-bg" style="background-image: url(assets/images/backgrounds/news_one_bg.jpg)"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6 col-lg-6">
-                <div class="block-title text-left">
-                    <h4>From the Blog</h4>
-                    <h2>News & Articles</h2>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-6">
-                <div class="news-one__top-text">
-                    <p>There are many variations of passages of lorem available but the majority have suffered
-                        in some form.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-4 col-lg-4">
-                <!--News One Single-->
-                <div class="news-one__single wow fadeInUp" data-wow-delay="100ms">
-                    <div class="news-one__img">
-                        <div class="news-one__img-box">
-                            <img src="assets/images/blog/news_one_img_1.jpg" alt="">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="news-one__date-box">
-                            <p>23 <br> Dec</p>
-                        </div>
-                    </div>
-                    <div class="news-one__content">
-                        <ul class="list-unstyled news-one__meta">
-                            <li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>
-                            <li><span>/</span></li>
-                            <li><a href="#"><i class="far fa-comments"></i> 2 Comments</a>
-                            </li>
-                        </ul>
-                        <div class="news-one__title">
-                            <h3><a href="news-details.html">How Does Malnutrition Affect Children?</a></h3>
-                        </div>
-                        <a href="news-details.html" class="thm-btn news-one__btn">More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4">
-                <!--News One Single-->
-                <div class="news-one__single wow fadeInUp" data-wow-delay="200ms">
-                    <div class="news-one__img">
-                        <div class="news-one__img-box">
-                            <img src="assets/images/blog/news_one_img_2.jpg" alt="">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="news-one__date-box">
-                            <p>23 <br> Dec</p>
-                        </div>
-                    </div>
-                    <div class="news-one__content">
-                        <ul class="list-unstyled news-one__meta">
-                            <li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>
-                            <li><span>/</span></li>
-                            <li><a href="#"><i class="far fa-comments"></i> 2 Comments</a>
-                            </li>
-                        </ul>
-                        <div class="news-one__title">
-                            <h3><a href="news-details.html">Leverage agile frameworks to provide a.</a></h3>
-                        </div>
-                        <a href="news-details.html" class="thm-btn news-one__btn">More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4">
-                <!--News One Single-->
-                <div class="news-one__single wow fadeInUp" data-wow-delay="300ms">
-                    <div class="news-one__img">
-                        <div class="news-one__img-box">
-                            <img src="assets/images/blog/news_one_img_3.jpg" alt="">
-                            <a href="news-details.html"></a>
-                        </div>
-                        <div class="news-one__date-box">
-                            <p>23 <br> Dec</p>
-                        </div>
-                    </div>
-                    <div class="news-one__content">
-                        <ul class="list-unstyled news-one__meta">
-                            <li><a href="#"><i class="far fa-user-circle"></i> Admin</a></li>
-                            <li><span>/</span></li>
-                            <li><a href="#"><i class="far fa-comments"></i> 2 Comments</a>
-                            </li>
-                        </ul>
-                        <div class="news-one__title">
-                            <h3><a href="news-details.html">Bring to the table win-win survival strategies.</a>
-                            </h3>
-                        </div>
-                        <a href="news-details.html" class="thm-btn news-one__btn">More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <!--News One End-->
 
 <!--Gallery One Start-->
